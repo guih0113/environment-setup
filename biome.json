@@ -37,7 +37,8 @@
         "noArrayIndexKey": "off"
       },
       "style": {
-        "useImportType": "off"
+        "useImportType": "off",
+        "noNonNullAssertion": "off"
       },
       "recommended": true
     }
