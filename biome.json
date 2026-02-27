@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.4.3/schema.json",
   "vcs": {
     "enabled": false,
     "clientKind": "git",
@@ -27,14 +27,13 @@
       "correctness": {
         "noUnusedImports": {
           "fix": "safe",
-          "level": "error",
-          "options": {}
+          "level": "error"
         },
         "useExhaustiveDependencies": "off"
       },
       "suspicious": {
-        "useAwait": "warn",
-        "noArrayIndexKey": "off"
+        "noArrayIndexKey": "off",
+        "noEmptyInterface": "off"
       },
       "style": {
         "useImportType": "off",
